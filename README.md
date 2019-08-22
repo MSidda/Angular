@@ -1,9 +1,6 @@
 /test
 
-```
-<pre>
-sample <b>sample</b> sample
-</pre>
+```print "`**`Hello world`**`";`
 azure devops
 sdasdasdas
 tested code
