@@ -11,9 +11,10 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hello, world!
+    - name: Implement secrets 
+      run: echo "${{ test }}"
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Implement secrets 
-      run: echo "${{ test }}"
+    
