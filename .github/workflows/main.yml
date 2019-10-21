@@ -12,7 +12,7 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Implement secrets 
-      run: echo "${{ test }}"
+      run: echo "${{ secrets.test }}"
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
